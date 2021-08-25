@@ -44,5 +44,9 @@ public class MobilePhone extends Product {
                 camera+")" + processor.toString();
     }
 
+    public void novaMetoda() {
+        System.out.println("Nova metoda");
+    }
+
 
 }

@@ -19,4 +19,8 @@ public class Processor {
     public String toString(){
         return "Processor ("+ name + ", " + speed + ", " + yearMade + ")";
     }
+
+    public void novProcessor() {
+        System.out.println("Nov processor");
+    }
 }

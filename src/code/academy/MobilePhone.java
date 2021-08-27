@@ -43,5 +43,8 @@ public class MobilePhone extends Product {
         return "Mobile Phone = ("+ getID()+  ", " + getGarnacija()+ ", " + make + ", "+ model+ ", " + color+ ", " +
                 camera+")" + processor.toString();
     }
-    
+
+    public void novaMetoda() {
+        System.out.println("Nova metoda");
+    }
 }

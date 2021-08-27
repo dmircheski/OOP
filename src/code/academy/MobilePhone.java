@@ -44,5 +44,8 @@ public class MobilePhone extends Product {
                 camera+")" + processor.toString();
     }
 
+    public void masterMethoda() {
+        System.out.println("Master metoda");
+    }
 
 }
